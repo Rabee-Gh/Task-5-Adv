@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.m-linear{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+
+}
+
+/* start login */
+.logcard{
+    min-width: 300px; 
+    max-width: 476px;
+    width: 90%;
+    box-shadow: 2px 5px 10px 0px #0000001A !important;
+
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+/* end login */
+
+
+/* start sidebar */
+
+.active-orange {
+  background-color: #FEAF00 !important; 
+  color:  #000000 !important; 
+}
+
+
+.hover-bg-light:hover {
+  background-color: #f8f9fa; 
+  color:  #000000 !important; 
+
+}
+/* end sidebar */
+
+
+
+/* start pagention */
+
+.custom-pagination .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.custom-pagination .page-item .page-link {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 0 3px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  line-height: 36px; 
+  transition: all .17s;
+  box-shadow: 0 2px 6px #eee;
+  outline: none;
+  padding: 0; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.custom-pagination .page-item:not(.active) .page-link {
+  color: #232323;
+  background: #fff;
+  border: 1.2px solid #ddd;
+}
+
+.custom-pagination .page-item.active .page-link {
+  color: #fff;
+  background: #FFB400;
+  border: 2px solid #ffc107;
+  z-index: 1; 
+}
+
+
+.custom-pagination .page-item:not(.active):not(.disabled) .page-link:hover {
+  background-color: #f0f0f0; 
+  border-color: #bbb;
+}
+
+
+.custom-pagination .page-item.prev .page-link,
+.custom-pagination .page-item.next .page-link {
+  color: #232323;
+  background: #fff;
+  box-shadow: 0 1px 6px #eee;
+  border: 1.2px solid #ddd;
+  font-size: 18px; 
+}
+
+
+.custom-pagination .page-item.disabled .page-link {
+  color: #ccc;
+  cursor: not-allowed;
+  background: #fff;
+  border-color: #ddd;
+}
+
+
+.custom-pagination .page-link .arrow-icon {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.custom-pagination .page-item .custom-ellipsis {
+  font-weight: 600;
+  color: #bbb;
+  font-size: 18px;
+  margin: 0 9px;
+  vertical-align: middle;
+  letter-spacing: 2.5px;
+  background: none;
+  border: none;
+  outline: none;
+  pointer-events: none; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 38px; 
+}
+/* end pagention */

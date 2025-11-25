@@ -1,0 +1,396 @@
+/* start login */
+
+.login-input {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.8rem;
+}
+
+.login-button {
+  background: #FEAF00;
+  border-color: #FEAF00;
+  color: white;
+}
+.login-button:hover{
+    background: #FEAF00;
+  border-color: #FEAF00;
+  color: white;
+}
+
+.login-link {
+  color: #FEAF00;
+}
+
+/* end login */
+
+/* start sign up */
+.signup-input {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.7rem 0.8rem;
+}
+
+.signup-upload-box {
+  max-height: 100px;
+  cursor: pointer;
+ 
+  max-width: 100px;
+  border-radius: 0.75rem;
+  padding: 1rem;
+      border: 2px dashed #384EB74D;
+    background-color: #c8cfee4d;
+}
+
+.signup-preview-image {
+  max-height: 90px;
+  max-width: 90px;
+  object-fit: cover;
+}
+
+.signup-button ,.signup-button:hover{
+  background: #FEAF00;
+  border-color: #FEAF00;
+  color: white;
+}
+
+.signup-link {
+  color: #FEAF00;
+}
+
+
+/* end sign up */
+
+/* strat ItemInfo */
+.iteminfo-container {
+  padding: 2rem;
+}
+
+.back-button {
+  font-size: 30px;
+  color: #222;
+  text-decoration: none;
+}
+
+.back-icon {
+  display: flex;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  font-size: 28px;
+  font-weight: 600;
+ 
+}
+
+.item-name {
+  font-size: 3.3rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #111;
+  margin-bottom: 30px;
+  margin-top: 42px;
+}
+
+.image-wrapper img.item-image {
+  width: 320px;
+  height: 320px;
+  object-fit: contain;
+  border-radius: 27px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 34px 0 #f6f6f6;
+}
+
+.price-added-row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-label {
+  font-size: 40px;
+  font-weight: 600;
+  color: #111;
+  margin-right: 7px;
+}
+
+.price-value {
+  font-size: 32px;
+  color: #bbb;
+  font-weight: 500;
+  /* margin-right: 15px; */
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.added-label {
+  font-size: 38px;
+  font-weight: 600;
+  color: #111;
+}
+
+.added-value {
+  font-size: 32px;
+  color: #bbb;
+  font-weight: 500;
+  /* margin-right: 12px; */
+  margin-left: 20px;
+
+}
+
+.updated-row {
+  justify-content: center;
+}
+
+.updated-label {
+  font-size: 41px;
+  font-weight: 600;
+  color: #111;
+  margin-right: 2px;
+}
+
+.updated-value {
+  font-size: 32px;
+  color: #bbb;
+  font-weight: 500;
+  /* margin-right: 9px; */
+  margin-left: 20px;
+
+}
+
+/* end ItemInfo */
+
+/* start Edititems */
+.btn-back {
+  font-size: 30px;
+  color: #222;
+  text-decoration: none;
+}
+.btn-back-arrow {
+  display: flex;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.edititems-title {
+  font-weight: 600;
+  font-size: 43px;
+  margin: 50px 0px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/*  */
+
+.form-control-custom {
+  height: 48px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: #fff;
+  border: 1.5px solid #eaeaea;
+  font-weight: 500;
+}
+
+.image-upload-area {
+  margin-top: 7px;
+  min-height: 220px;
+  background: #FAFAFF;
+  border: 2px dashed #cdcdcd;
+  border-radius: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border 0.13s;
+}
+
+.image-preview {
+  max-width: 93%;
+  max-height: 210px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.image-preview-wrapper {
+  text-align: center;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.btn-save {
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 30px;
+  background: #FFB400;
+  border: none;
+  border-radius: 6px;
+  width: 190px;
+  height: 56px;
+  color: #fff;
+  box-shadow: 0 1px 6px #eee;
+}
+
+@media (max-width:1095px) {
+  .btn-save{
+    margin-top: 20px;
+  }
+  .edititems-title{
+    font-size: 39px;
+  }
+}
+
+/* end Edititems */
+/* start Dashboard */
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #F8F8F8;
+  padding: 0 !important;
+}
+
+.sidebar-col {
+  width: 280px;
+  min-height: 100vh;
+  padding: 25px !important;
+  border-right: 1px solid #eee;
+  background-color: #F2EAE1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-col {
+  padding: 1.5rem !important; 
+  display: flex;
+}
+
+/* end Dashboard */
+
+/* start Additems */
+.back-button {
+  font-size: 30px;
+  color: #222;
+  text-decoration: none;
+  padding: 0 !important;
+}
+
+.back-arrow {
+  display: flex;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 43px;
+  margin: 50px 0px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #8e8e8e;
+  font-size: 30px;
+}
+
+.form-control-custom {
+  height: 48px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: #fff;
+  border: 1.5px solid #eaeaea;
+  font-weight: 400;
+}
+
+.image-upload-area {
+  margin-top: 7px;
+  min-height: 200px;
+  background: #fafaff;
+  border: 2px dashed #cdcdcd;
+  border-radius: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border 0.13s;
+}
+
+.image-preview {
+  max-width: 93%;
+  max-height: 210px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.image-placeholder {
+  text-align: center;
+}
+
+.save-button {
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 30px;
+  background: #ffb400 !important;
+  border: none;
+  border-radius: 6px;
+  width: 190px;
+  height: 56px;
+  color: #fff;
+  box-shadow: 0 1px 6px #eee;
+}
+@media (max-width:1095px) {
+  .save-button{
+    margin-top: 20px;
+  }
+  .title{
+    font-size: 39px;
+  }
+}
+
+
+/* end Additems */
+
+
+.toside{
+  position: absolute;
+    z-index: 2;
+    transform: rotateZ(90deg);
+    left: 8px;
+    top: 70px;
+}
+.toside button{
+      opacity: .8;
+    background-color: #ffc107 !important;
+}
+
+.stubid{
+      width: -webkit-fill-available;
+}
+
+.form-heading{
+      font-size: 14px !important;
+}

@@ -102,7 +102,7 @@ const Additems: React.FC = () => {
                     <img src={preview} alt="Preview" className="image-preview" />
                   ) : (
                     <div className="image-placeholder">
-                      <img src="/assets/uploadicon.png" alt="" />
+                      <img src={`${import.meta.env.BASE_URL}assets/uploadicon.png`} alt="" />
                     </div>
                   )}
                   <input
